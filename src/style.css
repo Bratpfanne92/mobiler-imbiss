@@ -311,3 +311,150 @@ footer {
         font-size: clamp(3rem, 15vw, 5.5rem)
     }
 }
+/* Rechtstextseiten: bewusst isoliert, damit das Landing-Page-Design gleich bleibt. */
+.footerLegalLinks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px 28px;
+    margin-top: 16px;
+    font-size: .9rem;
+}
+
+.footerLegalLinks a {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.footerLegalLinks a:hover,
+.footerLegalLinks a:focus-visible {
+    color: var(--yellow);
+}
+
+.legalHeader {
+    background: #111;
+    color: #fff;
+    padding: 0 6vw 2.8rem;
+}
+
+.legalNav {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.legalBack {
+    border: 1px solid var(--yellow);
+    padding: 10px 14px;
+    font-weight: 700;
+}
+
+.legalBack:hover,
+.legalBack:focus-visible {
+    background: var(--yellow);
+    color: #111;
+}
+
+.legalHeaderInner {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 2.6rem;
+}
+
+.legalHeaderInner h1 {
+    font-size: clamp(2.3rem, 7vw, 5rem);
+    line-height: 1.05;
+    letter-spacing: -.035em;
+    overflow-wrap: anywhere;
+    margin: .1em 0 .25em;
+}
+
+.legalMain {
+    padding: 3.5rem 6vw 5rem;
+}
+
+.legalDocument {
+    max-width: 980px;
+    padding: clamp(24px, 5vw, 64px);
+    margin: 0 auto;
+    background: #fff;
+    border-top: 8px solid var(--yellow);
+    box-shadow: 9px 9px 0 #ffb00070;
+    font-size: 1rem;
+    line-height: 1.75;
+    overflow-wrap: anywhere;
+}
+
+.legalDocument .legalIntro {
+    font-size: .98rem;
+    font-weight: 800;
+    color: #7b5400;
+    margin-top: 0;
+}
+
+.legalDocument h2 {
+    font-size: clamp(1.2rem, 2.8vw, 1.65rem);
+    line-height: 1.25;
+    margin: 2.2rem 0 .65rem;
+}
+
+.legalDocument h2:first-of-type {
+    margin-top: 1.1rem;
+}
+
+.legalDocument p,
+.legalDocument li {
+    color: #333;
+}
+
+.legalDocument address {
+    font-style: normal;
+    line-height: 1.8;
+}
+
+.legalDocument a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 700;
+}
+
+.legalDocument a:hover,
+.legalDocument a:focus-visible {
+    color: #906000;
+}
+
+.legalDocument ul {
+    padding-left: 1.5rem;
+}
+
+.legalDocument .notFoundTitle {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.1;
+    letter-spacing: -.02em;
+    margin: 0 0 1rem;
+}
+
+@media (max-width: 600px) {
+    .legalHeader {
+        padding-bottom: 2rem;
+    }
+
+    .legalNav {
+        height: auto;
+        min-height: 84px;
+        flex-wrap: wrap;
+        padding: 14px 0;
+    }
+
+    .legalMain {
+        padding: 2rem 5vw 4rem;
+    }
+}
+
+.footerLegalLinks {
+    height: auto;
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    justify-content: center;
+}
