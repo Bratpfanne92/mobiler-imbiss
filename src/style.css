@@ -458,3 +458,27 @@ footer {
     border: 0;
     justify-content: center;
 }
+@media (max-width: 600px) {
+  .heroPhoto img {
+    height: 230px;
+    object-fit: cover;
+  }
+
+  .heroPhoto span {
+    right: -4px;
+    top: -12px;
+    padding: 10px 14px;
+    font-size: 1rem;
+  }
+
+  .cards img {
+    height: 170px;
+    object-fit: cover;
+  }
+
+  .black img {
+    height: 220px;
+    max-height: 220px;
+    object-fit: cover;
+  }
+}
