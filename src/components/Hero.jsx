@@ -12,8 +12,10 @@ export default function Hero() {
             <em>für dein Event</em>
           </h1>
           <p className="lead">
-            Herzhaft vom Grill, knusprige Beilagen und mediterrane Spezialitäten
-            – frisch zubereitet direkt vor Ort.
+            Mobiler Imbiss und Catering für Feiern, Firmenfeste und
+            Veranstaltungen rund um Bad Nenndorf und Barsinghausen. Herzhaft vom
+            Grill, knusprige Bratkartoffeln und mediterrane Antipasti – frisch
+            zubereitet direkt vor Ort.
           </p>
           <div className="actions">
             <a className="cta" href="tel:+4917679950696">

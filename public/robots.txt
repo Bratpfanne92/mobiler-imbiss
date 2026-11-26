@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://miet-dein-imbiss.onrender.com/sitemap.xml
