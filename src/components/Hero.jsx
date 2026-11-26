@@ -13,9 +13,11 @@ export default function Hero() {
           </h1>
           <p className="lead">
             Mobiler Imbiss und Catering für Feiern, Firmenfeste und
-            Veranstaltungen rund um Bad Nenndorf und Barsinghausen. Herzhaft vom
-            Grill, knusprige Bratkartoffeln und mediterrane Antipasti – frisch
-            zubereitet direkt vor Ort.
+            Veranstaltungen in Stadthagen, Bad Nenndorf, Rodenberg, Lauenau,
+            Barsinghausen, Wennigsen (Deister) und Wunstorf. Weitere Einsatzorte
+            im Umkreis von etwa 50 km um Stadthagen sind nach Absprache möglich.
+            Frisch zubereitete Grillgerichte, Bratkartoffeln und mediterrane
+            Antipasti direkt vor Ort.
           </p>
           <div className="actions">
             <a className="cta" href="tel:+4917679950696">
